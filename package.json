@@ -1,0 +1,23 @@
+{
+  "name": "groups-of",
+  "version": "0.0.1",
+  "description": "Divides arrays or strings into sub-groups of a given cardinality",
+  "main": "index.js",
+  "scripts": {
+    "test": "make test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/aheckmann/groups-of.git"
+  },
+  "keywords": [
+    "group",
+    "array",
+    "string"
+  ],
+  "author": "Aaron Heckmann <aaron.heckmann+github@gmail.com>",
+  "license": "MIT",
+  "devDependencies": {
+    "mocha": "1.5.0"
+  }
+}
