@@ -1,0 +1,82 @@
+<!doctype html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="chrome=1">
+    <title>Groups-of by aheckmann</title>
+
+    <link rel="stylesheet" href="stylesheets/styles.css">
+    <link rel="stylesheet" href="stylesheets/pygment_trac.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+    <!--[if lt IE 9]>
+    <script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+  </head>
+  <body>
+    <div class="wrapper">
+      <header>
+        <h1>Groups-of</h1>
+        <p>Divides arrays into groups of a specified cardinality.</p>
+
+        <p class="view"><a href="https://github.com/aheckmann/groups-of">View the Project on GitHub <small>aheckmann/groups-of</small></a></p>
+
+
+        <ul>
+          <li><a href="https://github.com/aheckmann/groups-of/zipball/master">Download <strong>ZIP File</strong></a></li>
+          <li><a href="https://github.com/aheckmann/groups-of/tarball/master">Download <strong>TAR Ball</strong></a></li>
+          <li><a href="https://github.com/aheckmann/groups-of">View On <strong>GitHub</strong></a></li>
+        </ul>
+      </header>
+      <section>
+        <h1>groups-of</h1>
+
+<h1></h1>
+
+<p>Divides arrays into groups of a specified cardinality.</p>
+
+<h2>Usage</h2>
+
+<div class="highlight"><pre><span class="kd">var</span> <span class="nx">groupsOf</span> <span class="o">=</span> <span class="nx">require</span><span class="p">(</span><span class="s1">'groups-of'</span><span class="p">);</span>
+<span class="kd">var</span> <span class="nx">array</span> <span class="o">=</span> <span class="p">[</span><span class="mi">3</span><span class="p">,</span><span class="mi">4</span><span class="p">,</span><span class="mi">5</span><span class="p">,</span><span class="mi">6</span><span class="p">,</span><span class="mi">7</span><span class="p">];</span>
+
+<span class="nx">groupsOf</span><span class="p">(</span><span class="mi">3</span><span class="p">,</span> <span class="nx">array</span><span class="p">,</span> <span class="kd">function</span> <span class="p">(</span><span class="nx">group</span><span class="p">)</span> <span class="p">{</span>
+  <span class="nx">console</span><span class="p">.</span><span class="nx">log</span><span class="p">(</span><span class="s1">'the group is %s'</span><span class="p">,</span> <span class="nx">group</span><span class="p">);</span>
+<span class="p">});</span>
+
+<span class="c1">// Outputs:</span>
+<span class="c1">// the group is [3,4,5]</span>
+<span class="c1">// the group is [6,7]</span>
+</pre></div>
+
+<p>Even works with strings:</p>
+
+<div class="highlight"><pre><span class="kd">var</span> <span class="nx">string</span> <span class="o">=</span> <span class="s2">"oh say can you say"</span><span class="p">;</span>
+
+<span class="nx">groupsOf</span><span class="p">(</span><span class="mi">8</span><span class="p">,</span> <span class="nx">string</span><span class="p">,</span> <span class="kd">function</span> <span class="p">(</span><span class="nx">group</span><span class="p">)</span> <span class="p">{</span>
+  <span class="nx">console</span><span class="p">.</span><span class="nx">log</span><span class="p">(</span><span class="s1">'the group is %s'</span><span class="p">,</span> <span class="nx">group</span><span class="p">);</span>
+<span class="p">})</span>
+
+<span class="c1">// Outputs:</span>
+<span class="c1">// the group is "oh say c";</span>
+<span class="c1">// the group is "an you s";</span>
+<span class="c1">// the group is "ay";</span>
+</pre></div>
+
+<h2>install</h2>
+
+<pre><code>npm install groups-of
+</code></pre>
+
+<p><a href="https://github.com/aheckmann/sliced/blob/master/LICENSE">LICENSE</a></p>
+
+<p><img src="http://wacohi1960.com/pht/3/grouper_fish_b.jpg" alt="Grouper! http://wacohi1960.com/pht/3/grouper_fish_b.jpg"></p>
+      </section>
+      <footer>
+        <p>This project is maintained by <a href="https://github.com/aheckmann">aheckmann</a></p>
+        <p><small>Hosted on GitHub Pages &mdash; Theme by <a href="https://github.com/orderedlist">orderedlist</a></small></p>
+      </footer>
+    </div>
+    <script src="javascripts/scale.fix.js"></script>
+    
+  </body>
+</html>
