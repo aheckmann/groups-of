@@ -40,3 +40,6 @@ groupsOf(8, string, function (group) {
     npm install groups-of
 
 [LICENSE](https://github.com/aheckmann/sliced/blob/master/LICENSE)
+
+![http://wacohi1960.com/pht/3/grouper_fish_b.jpg](http://wacohi1960.com/pht/3/grouper_fish_b.jpg)
+
